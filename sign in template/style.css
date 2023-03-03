@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+body {
+    background-color: #999999;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* tools */
+.flex {
+    display: flex;
+}
+
+.fs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    background-color: #fff;
+    width: 600px;
+    height: 650px;
+    margin: 6rem auto;
+    border-radius: 15px;
+}
+
+/* img and logos */
+img {
+    width: 20px;
+}
+
+.logos {
+    margin: 20px;
+}
+
+.fa-brands {
+    color: #1d9bf0;
+    scale: 2;
+}
+
+
+/* sign box */
+.signin {
+    width: 364px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+h1 {
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 36px;
+}
+
+/* google and apple */
+.googlebox,
+.applebox {
+    border: 1.75px solid #dee4e8;
+    width: 300px;
+    height: 40px;
+    border-radius: 25px;
+    gap: 8px;
+    margin: 13px;
+    font-weight: 500;
+}
+
+.googlebox {
+    background-color: #f7faff;
+    border-color: #dce9fc;
+    font-weight: 400;
+}
+
+/* borders */
+.border1,
+.border2 {
+    width: 120px;
+    height: 1px;
+    background-color: #d2dbe0;
+}
+
+.border-or {
+    margin: 0 10px;
+    font-weight: 400;
+    font-size: 18px;
+    margin: 10px;
+}
+
+/* text */
+
+#text {
+    /* border: transparent; */
+    width: 295px;
+    border: 1.75px solid #dee4e8;
+    height: 50px;
+    padding-left: 10px;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    border-radius: 5px;
+}
+
+/* button */
+button {
+    width: 300px;
+    height: 40px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+    border-radius: 25px;
+    margin: 15px auto;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 10px;
+}
+
+.nextBtn {
+    border: transparent;
+    background-color: #000;
+    color: #fff;
+}
+
+.forgotBtn {
+    border: 1px solid #999999;
+    color: #000;
+    background-color: #fff;
+    
+}
+
+/* last peragraf */
+.last-text {
+    /* font-weight: 400; */
+    color: #999999;
+    font-size: 17px;
+
+}
+
+a{
+    text-decoration: none;
+    color: #7ec6f9;
+}
