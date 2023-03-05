@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.flex{
+    display: flex;
+}
+.flexs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.left-box,
+.center-box,
+.right-box{
+    border:1px solid #E7E7E8;
+}
+
+
+
+/* section  */
+section {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+}
+
+.logo
+{
+    width: 33px;
+}
+img{
+    width: 22px;
+}
+.leftBox{
+    width: 565px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+
+}
+
+.leftBox p{
+    font-size: 18px;
+    color: #0F1419;
+    font-weight: 300;
+}
+.home-l p{
+    font-weight: 700;
+}
+
+button {
+    border-radius: 25px;
+    border: transparent;
+    padding: 0 32px;
+    font-weight: 700;
+   font-family: 'Roboto', sans-serif;
+    
+  }
+
+
+  #btnl{
+    background-color: #1D9BF0;
+    border: transparent;
+    padding: 15px 70px;
+    color: #fff;
+    font-size: 16px;
+  
+  }
+
+/* Center Boxs */
+
+.center-box{
+    width: 600px;
+    padding: 0 16px;
+}
+
+
+/* Right Box */
+
+.right-box{
+    width: 350px;
+}
+
+/* search box */
+.search-box {
+    display: flex;
+    align-items: center;
+    width: 333px;
+    background-color: #EFF3F4;
+    height: 40px;
+    border-radius: 25px;
+    margin: 5px;
+  }
+  #search{
+    outline: transparent;
+    border: transparent;
+    background-color:#EFF3F4;
+    color: #0F1419;
+    font-family: 'Roboto', sans-serif;
+    padding: 0 20px;
+    font-weight: 400;
+    font-size: 14px;
+  }
+
+  .sicon{
+    color: #536471;
+    margin-left: 1rem;
+  }
+
+  /* Trending box */
+  .main-p {
+    margin: 1rem;
+    padding-top: 10px;
+    font-size: 20px;
+    font-weight: 600;  }
+
+  .t1{
+    gap: 12rem;
+margin: 20px 1rem ;  
+
+}
+  .trending-box{
+background-color: #EFF3F4;
+border-radius: 10px;
+margin: 5px;
+
+  }
+
+
+  .p-hading,
+  .tweet {
+    color: #536471;
+    font-size: 11px;
+    margin: 0;
+    width: max-content;
+    
+  }
+
+  .name {
+    font-size: 13.7px;
+    font-weight: 500;
+    margin: 5px 0px;
+  }
+
+  .threedot{
+    color: #536471;
+  }
+
+/* follow */
+
+.follows{
+    background-color: #EFF3F4;
+    border-radius:10px ;
+    margin: 5px;
+/* padding-top: 5px; */
+}
+.follow-p{
+    margin: 1rem;
+padding-top: 10px;
+font-size: 20px;
+font-weight: 600;
+}
+
+  #followbtn{
+    padding: 6px 15px;
+background-color: black;
+color: #fff;
+
+  }
+
+  .follows img{
+    width: 45px;
+    border-radius: 5rem;
+    
+  }
+
+
+  .namep,
+  .user-name{
+    margin: 0;
+    width: fit-content;
+    margin-left: 8px;
+
+}
+.namep{
+    font-size: 15px;
+    font-weight: 500;
+}
+.user-name{
+color: #536471;
+font-size: 14px;
+
+    }
+  
+    .follow-name {
+        margin: 0 3.7rem 0 0.5rem;
+      }
+  .follow-cards {
+    margin: 20px 1rem;
+  }
